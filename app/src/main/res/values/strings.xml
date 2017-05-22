@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HTML TAG</string>
+    <string name="comment_tag">This can be viewed in the HTML part of a document   <b><![CDATA[syntax<!-- -->]]></b> </string>
+    <string name="anger_tag">anger tag   <b><![CDATA[syntax <a href="foo?id=%s">baz</a>]]></b>  Visit Our Site</string>
+    <string name="bold_tag">bold tag  <b><![CDATA[syntax <b>Example</b>]]> Example : bold text</b></string>
+    <string name="big_tag">big tag   big (text)<b><![CDATA[syntax <big>Example</big>]]></b></string>
+    <string name="body_tag">body tag  body of HTML document<b><![CDATA[syntax <body>The content of your HTML page</body>]]></b></string>
+</resources>
+

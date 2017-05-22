@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="zore">#5DADE2</color>
+    <color name="even">#76D7C4 </color>
+    <color name="odd">#34495E</color>
+    <color name="out_put">#D5DBDB</color>
+    <color name="colorPrimary">#3F51B5</color><!--Background color for AppBar-->
+    <color name="colorPrimaryDark">#303F9F</color><!--i ignore its use-->
+    <color name="colorAccent">#FF4081</color><!--color effects, EditText, RadioButtons...-->
+</resources>

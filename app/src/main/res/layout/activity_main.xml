@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:textAppearance="@color/zore"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.smartglossa2.zore.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginBottom="11dp">
+
+        
+
+        <!--comment tag code-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMMENT TAG"
+            android:textStyle="bold"
+            android:layout_marginTop="13sp"
+            android:id="@+id/textView" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+
+            <Button
+                android:id="@+id/mybtn"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/comment_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--anchor tag -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ANCHOR TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="45pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+
+            <Button
+                android:id="@+id/mybtn2"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="70dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/anger_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--bold tag -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOLD TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="80pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+
+            <Button
+                android:id="@+id/mybtn3"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="150dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/bold_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!-- big tag-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIG TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="120pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+
+            <Button
+                android:id="@+id/mybtn4"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="230dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/big_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--body tag -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="160pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn5"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="310dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="200pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn6"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="350dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdfd"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="240pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn7"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="480dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!-- -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kkkkk"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="280pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn8"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="350dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="420pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn9"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="390dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="460pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn10"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="390dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="160pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn11"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="410dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="500pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn12"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="510dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="610pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn13"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="610dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="660pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn14"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="710dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!-- -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="710pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn15"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="710dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!-- -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="860pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn16"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="770dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!-- -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="810pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn17"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="770dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="960pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn18"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="910dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1060pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn19"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="1010dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!--  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1160pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn20"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="1110dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <!-- -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BODY TAG"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1260pt"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+
+            <Button
+                android:id="@+id/mybtn21"
+                style="?buttonBarButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="1210dp"
+                android:layout_weight="1"
+                android:background="#c4c5c7"
+                android:shadowColor="#959597"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="Button"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="260dp"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/myTextView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/out_put"
+                android:layout_marginRight="40dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:text="@string/body_tag"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+</ScrollView>
+    </RelativeLayout>
+    <!--  -->
+
+
